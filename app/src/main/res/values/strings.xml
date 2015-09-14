@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Blog Planner</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ingresar">Ingresar</string>
+    <string name="title_activity_registrarde">RegistrardeActivity</string>
+    <string name="title_activity_registrarse">RegistrarseActivity</string>
+    <string name="title_activity_define_blog">DefineBlogActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_temas">TemasActivity</string>
+    <string name="title_activity_con">COnActivity</string>
+    <string name="title_activity_contenido">ContenidoActivity</string>
+    <string name="title_activity_ideas">IdeasActivity</string>
+    <string name="title_activity_entrevistas">EntrevistasActivity</string>
+    <string name="title_activity_investigacion">InvestigacionActivity</string>
+    <string name="title_activity_herramientas">HerramientasActivity</string>
+    <string name="title_activity_tips">TipsActivity</string>
+    <string name="title_activity_entrada">EntradaActivity</string>
+    <string name="title_activity_difundir">DifundirActivity</string>
+    <string name="title_activity_imagenes">ImagenesActivity</string>
+</resources>

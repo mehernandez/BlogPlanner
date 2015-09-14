@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="20dp"
+    android:paddingBottom="@dimen/activity_vertical_margin" android:background="@drawable/fondo_registrarse"
+    tools:context="com.example.mariohernandez.blogplanner.EntradaActivity"
+    android:orientation="vertical" android:id="@+id/principal">
+
+    <TextView android:text="Éstos son los pasos para tener en cuenta al momento de realizar una nueva entrada."
+        android:layout_width="wrap_content" android:textColor="@color/black"
+        android:layout_height="wrap_content" android:layout_marginBottom="20dp"/>
+
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="40dp" android:text="ELEGIR TEMA"
+        android:textSize="15dp"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="40dp" android:text="OBTENCIÓN DE IMÁGENES"
+        android:textSize="15dp"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="40dp" android:text="REDACTAR"
+        android:textSize="15dp"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="40dp" android:text="SINTETIZAR"
+        android:textSize="15dp"/>
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="40dp" android:text="DIAGRAMAR"
+        android:textSize="15dp"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="40dp" android:text="PUBLICAR"
+        android:textSize="15dp"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="40dp" android:text="DIFUNDIR"
+        android:textSize="15dp"/>
+
+    <Button
+        android:layout_width="150dp" android:textSize="20dp" android:background="@drawable/rounded_button_sig"
+        android:layout_height="50dp" android:layout_gravity="right"
+        android:text="REGRESAR" android:textColor="@color/siguiente" android:layout_marginTop="40dp"
+        android:id="@+id/btn_sig"/>
+</LinearLayout>

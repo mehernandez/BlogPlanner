@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" android:background="@drawable/fondo_registrarse"
+    android:paddingBottom="@dimen/activity_vertical_margin" android:orientation="vertical"
+    android:id="@+id/principal"
+        tools:context="com.example.mariohernandez.blogplanner.IdeasActivity">
+
+    <TextView android:text="Anota aquí las ideas espontáneas que se te ocurren en el día a día, para recordarlas cuando redactes tu nueva entrada:"
+        android:layout_width="wrap_content" android:textColor="@color/black"
+        android:layout_height="wrap_content" android:layout_marginBottom="10dp"/>
+    
+    <EditText
+        android:layout_width="match_parent" android:background="@drawable/textico"
+        android:layout_height="350dp" android:padding="10dp" android:gravity="top"
+        />
+
+    <Button
+        android:layout_width="150dp" android:textSize="20dp" android:background="@drawable/rounded_button_continue"
+        android:layout_height="40dp" android:layout_gravity="right" android:layout_marginTop="20dp"
+        android:text="REGRESAR" android:textColor="#DDCCC4"
+        android:id="@+id/btn_sig"/>
+
+
+</LinearLayout>

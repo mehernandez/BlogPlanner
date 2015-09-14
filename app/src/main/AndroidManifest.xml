@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mariohernandez.blogplanner" >
+
+
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Ingresar"
+            android:label="@string/title_activity_ingresar"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariohernandez.blogplanner.MainActivity" />
+        </activity>
+        <activity
+            android:name=".RegistrardeActivity"
+            android:label="@string/title_activity_registrarde" >
+        </activity>
+        <activity
+            android:name=".RegistrarseActivity"
+            android:label="@string/title_activity_registrarse"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariohernandez.blogplanner.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DefineBlogActivity"
+            android:label="@string/title_activity_define_blog"
+            android:parentActivityName=".Ingresar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariohernandez.blogplanner.Ingresar" />
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:parentActivityName=".Ingresar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariohernandez.blogplanner.Ingresar" />
+        </activity>
+        <activity
+            android:name=".TemasActivity"
+            android:label="@string/title_activity_temas"
+            android:parentActivityName=".HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariohernandez.blogplanner.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".COnActivity"
+            android:label="@string/title_activity_con" >
+        </activity>
+        <activity
+            android:name=".ContenidoActivity"
+            android:label="@string/title_activity_contenido"
+            android:parentActivityName=".HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariohernandez.blogplanner.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".IdeasActivity"
+            android:label="@string/title_activity_ideas"
+            android:parentActivityName=".ContenidoActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariohernandez.blogplanner.ContenidoActivity" />
+        </activity>
+        <activity
+            android:name=".EntrevistasActivity"
+            android:label="@string/title_activity_entrevistas"
+            android:parentActivityName=".ContenidoActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariohernandez.blogplanner.ContenidoActivity" />
+        </activity>
+        <activity
+            android:name=".InvestigacionActivity"
+            android:label="@string/title_activity_investigacion"
+            android:parentActivityName=".ContenidoActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariohernandez.blogplanner.ContenidoActivity" />
+        </activity>
+        <activity
+            android:name=".HerramientasActivity"
+            android:label="@string/title_activity_herramientas"
+            android:parentActivityName=".ContenidoActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariohernandez.blogplanner.ContenidoActivity" />
+        </activity>
+        <activity
+            android:name=".TipsActivity"
+            android:label="@string/title_activity_tips"
+            android:parentActivityName=".HerramientasActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariohernandez.blogplanner.HerramientasActivity" />
+        </activity>
+        <activity
+            android:name=".EntradaActivity"
+            android:label="@string/title_activity_entrada"
+            android:parentActivityName=".HerramientasActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariohernandez.blogplanner.HerramientasActivity" />
+        </activity>
+        <activity
+            android:name=".DifundirActivity"
+            android:label="@string/title_activity_difundir"
+            android:parentActivityName=".HerramientasActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariohernandez.blogplanner.HerramientasActivity" />
+        </activity>
+        <activity
+            android:name=".ImagenesActivity"
+            android:label="@string/title_activity_imagenes"
+            android:parentActivityName=".HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariohernandez.blogplanner.HomeActivity" />
+        </activity>
+    </application>
+
+</manifest>

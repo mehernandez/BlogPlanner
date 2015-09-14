@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/fondo_registrarse"
+    tools:context="com.example.mariohernandez.blogplanner.DefineBlogActivity"
+    android:id="@+id/principal">
+
+        <ScrollView
+            android:layout_width="match_parent" android:padding="10dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent" android:orientation="vertical"
+                android:layout_height="match_parent">
+            <TextView
+                android:layout_width="150dp" android:text="URL DEL BLOG"
+                android:textSize="20dp" android:background="@drawable/rounded_text"
+                android:layout_height="40dp" android:padding="5dp" android:gravity="center"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="match_parent" android:layout_marginTop="10dp"
+                android:layout_height="40dp" android:background="@drawable/rounded_text2"
+                android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="150dp" android:text="HABLAS DE:"
+                    android:textSize="20dp" android:background="@drawable/rounded_text"
+                    android:layout_height="40dp" android:padding="5dp" android:gravity="center"
+                    android:textColor="@color/black" android:layout_marginTop="30dp"/>
+
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" android:text="Estilo de calle"
+                        android:textSize="15dp"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" android:text="'Looks' Personales"
+                        android:textSize="15dp"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" android:text="Tendencias"
+                        android:textSize="15dp"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" android:text="Eventos nacionales"
+                        android:textSize="15dp"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" android:text="Marcas"
+                        android:textSize="15dp"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" android:text="Diseñadores"
+                        android:textSize="15dp"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" android:text="Productos"
+                        android:textSize="15dp"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" android:text="DYY"
+                        android:textSize="15dp"/>
+
+                    
+
+
+                <TextView
+                    android:layout_width="match_parent" android:text="TU BLOG SE CARACTERIZA POR SER:"
+                    android:textSize="19dp" android:background="@drawable/rounded_text"
+                    android:layout_height="40dp" android:padding="5dp" android:gravity="center"
+                    android:textColor="@color/black" android:layout_marginTop="30dp"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent" android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" android:text="Informativo"
+                        android:textSize="15dp"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" android:text="Académico"
+                        android:textSize="15dp"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" android:text="Cotidiano"
+                        android:textSize="15dp"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" android:text="Visual"
+                        android:textSize="15dp"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" android:text="Crítico"
+                        android:textSize="15dp"/>
+
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="match_parent" android:text="¿Cuál es el objetivo principal de tu blog?"
+                    android:textSize="17dp" android:background="@drawable/rounded_text"
+                    android:layout_height="40dp" android:padding="5dp" android:gravity="center"
+                    android:textColor="@color/black" android:layout_marginTop="30dp"/>
+                
+                <EditText
+                    android:layout_width="match_parent" android:layout_marginTop="10dp"
+                    android:layout_height="300dp" android:background="@drawable/textico"
+                    android:id="@+id/objetivo" android:padding="20dp" android:gravity="top" />
+
+                <TextView android:layout_marginTop="10dp" android:textColor="@color/black"
+                    android:layout_width="wrap_content" android:text="BLOG PLANNER"
+                    android:layout_height="match_parent" android:textSize="20dp"
+                    android:layout_marginLeft="20dp"/>
+                <TextView android:layout_marginTop="5dp" android:textColor="@color/black"
+                    android:layout_width="wrap_content" android:text="Te ayudará a recordar tu objetivo mientras planeas tus diferentes entradas"
+                    android:layout_height="match_parent" android:textSize="15dp"
+                    android:layout_marginLeft="20dp"/>
+
+             <!--   <ImageView android:visibility="gone"
+                    android:layout_width="250dp" android:src="@drawable/icono"
+                    android:layout_height="250dp" android:layout_gravity="center"/>
+                    -->
+
+                <Button
+                    android:layout_width="150dp" android:textSize="20dp" android:background="@drawable/rounded_button_sig"
+                    android:layout_height="50dp" android:layout_gravity="right"
+                    android:text="FINALIZAR" android:textColor="@color/siguiente" android:layout_marginTop="40dp"
+                    android:id="@+id/btn_sig"/>
+
+            </LinearLayout>
+        </ScrollView>
+</LinearLayout>

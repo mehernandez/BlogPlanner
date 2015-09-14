@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="20dp"
+    android:paddingBottom="10dp"
+    tools:context="com.example.mariohernandez.blogplanner.Ingresar"
+    android:orientation="vertical" android:gravity="center"
+    android:background="@drawable/fondo_ingresar"
+    android:id="@+id/principal">
+
+<LinearLayout
+    android:layout_width="match_parent" android:orientation="vertical" android:layout_weight="1"
+    android:layout_height="match_parent" android:background="@drawable/rounded_square"
+    android:paddingTop="20dp" android:paddingBottom="30dp" android:paddingLeft="40dp"
+    android:paddingRight="40dp" android:gravity="center">
+    <TextView
+        android:layout_width="250sp"
+        android:layout_height="70sp"
+        android:background="@drawable/rounded_title"
+        android:text="INGRESAR" android:textSize="30dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center" android:textColor="#000000"/>
+    <TextView android:text="NOMBRE DEL BLOG:" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:textColor="#FFFFFF"
+        android:layout_gravity="left" android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:layout_width="match_parent" android:background="@drawable/rounded_edit"
+        android:layout_height="50dp" android:gravity="center" android:id="@+id/nom_blog"/>
+
+
+    <TextView android:text="CONTRASEÑA:" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:textColor="#FFFFFF"
+        android:layout_gravity="left" android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:layout_width="match_parent" android:background="@drawable/rounded_edit"
+        android:layout_height="50dp" android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content" android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="50dp" android:src="@drawable/facebook"
+            android:background="@null" android:layout_marginRight="10dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_width="wrap_content" android:text="CONECTAR CON FACEBOOK"
+            android:layout_height="wrap_content" android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+    <Button
+        android:layout_width="150dp" android:textSize="20dp" android:background="@drawable/rounded_button_continue"
+        android:layout_height="40dp" android:layout_gravity="right"
+        android:text="SIGUIENTE" android:textColor="#DDCCC4" android:layout_marginTop="20dp"
+        android:id="@+id/btn_sig"/>
+
+
+</LinearLayout>
